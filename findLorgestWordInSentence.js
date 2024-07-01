@@ -9,11 +9,14 @@ function findLongestWord(sentence){
         // Remove non-alphabetic characters means nubers also using regular expression
         let cleanWord=word.replace(/[^a-zA-Z]/g, '')
 
-        if(cleanWord.length>longestWord.length){
+        if(cleanWord.length>longestWord.length){// length is not not a method , its is property of both arry and astring
+            //for arry it give number of elements in arry and for string it give number of charecters
             longestWord=cleanWord;
+
         }
     }
     return longestWord;
+
 }
 let line="hi hari how are you man!!  %^prasad123"
 const longWord=findLongestWord(line)

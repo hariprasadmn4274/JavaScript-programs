@@ -11,5 +11,5 @@ function primeNumber(num){
     }
     return true//this is for missing numbers ie 2 and 3 bcs their sqrt ils less than 2 so
 }
-let result=primeNumber(3)
+let result=primeNumber(4)
 console.log(result)
