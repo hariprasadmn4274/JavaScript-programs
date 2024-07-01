@@ -9,7 +9,7 @@ function primeNumber(num){
             return true
         }
     }
-    return true//this is for missing numbers ie 2 and 3 bcs their sqrt ils less than 2 so
+    return true//this is for missing numbers ie 2 and 3 bcs their sqrt is less than 2 so
 }
 let result=primeNumber(4)
 console.log(result)
