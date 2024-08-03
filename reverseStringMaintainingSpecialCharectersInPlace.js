@@ -1,5 +1,5 @@
 function reverseStr(str) {
-    let chars = str.split('');
+    let chars = str.split('')
     let left = 0;
     let right = chars.length - 1;
 
@@ -17,4 +17,4 @@ function reverseStr(str) {
     return chars.join('');
 }
 
-console.log(reverseStr("ha$ri")); // Expected output: "d,hc*g"
+console.log(reverseStr("ha$ri")); 

@@ -6,3 +6,7 @@ function swap(a,b){
     console.log(a,b)
 }
 swap(3,5)
+
+
+
+console.log(this)

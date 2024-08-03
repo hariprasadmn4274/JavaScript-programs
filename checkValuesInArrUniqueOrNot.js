@@ -1,7 +1,5 @@
 function checkValuesInArrUniqueOrNot(arr){
-    // let arrl=arr.legnth
     let set=new Set(arr)
-    return set.length==arr.length
-
+    return set.size==arr.length
 }
-console.log(checkValuesInArrUniqueOrNot([1,2,3,3,4]))
+console.log(checkValuesInArrUniqueOrNot([1,2,3,4]))

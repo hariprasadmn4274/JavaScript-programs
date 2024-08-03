@@ -1,5 +1,5 @@
 function isValidBracketSequence(str) {
-                                
+
     let stack = [];
 
     for (let char of str) {
@@ -12,7 +12,6 @@ function isValidBracketSequence(str) {
             stack.pop();
         }
     }
-
     return stack.length === 0;
 }
 

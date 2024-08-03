@@ -8,6 +8,4 @@ function removeDuplicates(arr){
     // Return the unique array
     return uniqueArray; */
 }
-let arrywithDuplicates=[1,2,3,4,5,1,2,3,4,5]
-let arryWithoutDuplicates=removeDuplicates(arrywithDuplicates)
-console.log(arryWithoutDuplicates)
+console.log(removeDuplicates([1,2,3,4,5,1,2,3,4,5]))
