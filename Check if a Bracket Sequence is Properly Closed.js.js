@@ -1,18 +1,18 @@
 function isValidBracketSequence(str) {
 
-    let stack = [];
+    let arr = [];
 
     for (let char of str) {
         if (char === '(') {
-            stack.push(char);
+            arr.push(char);
         } else if (char === ')') {
-            if (stack.length === 0) {
+            if (arr.length === 0) {
                 return false;
             }
-            stack.pop();
+            arr.pop();
         }
     }
-    return stack.length === 0;
+    return arr.length === 0;
 }
 
 console.log(isValidBracketSequence("(())()")); // true
