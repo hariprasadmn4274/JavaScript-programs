@@ -2,7 +2,9 @@ function extractNumbers(str){
 
         let num=[]
         for(let char of str){
-            if(!/[a-zA-Z]/.test(char)){// if(/[^a-zA-Z]/.test(char)){ you can use this one also
+            if(!/[a-zA-Z]/.test(char)){ 
+                    // if(/[^a-zA-Z]/.test(char)){ you can use this one also
+                    ///[0-9]/.test(char))
 
                 num.push(char)
             }
