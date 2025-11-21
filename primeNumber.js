@@ -1,15 +1,14 @@
-function primeNumber(num){
-    if(num<=1){
-        return false
+function primeNum(num){
+    if(num <= 1){
+        return false;
     }
-    for(let i=2;i<=Math.sqrt(num);i++){
-        if(num%i==0){
-            return false
-        }else{
-            return true
+    for(let i = 2; i <= Math.sqrt(num); i++){
+        if(num % i === 0){
+            return false;
         }
     }
-    return true//this is for missing numbers ie 2 and 3 bcs their sqrt is less than 2 so
+    return true;
 }
+
 let result=primeNumber(4)
 console.log(result)
