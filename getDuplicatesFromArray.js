@@ -1,13 +1,13 @@
 //1.)getDuplicateNumbersFromArray
 
 function getDuplicatesFromArray(arr){
-    let seen=new Set()
+    let set=new Set()
     let duplicates=[]
     for(let digi of arr){
-        if(seen.has(digi)){
+        if(set.has(digi)){
             duplicates.push(digi)
         }else{
-            seen.add(digi)
+            set.add(digi)
         }
     }
     return duplicates
