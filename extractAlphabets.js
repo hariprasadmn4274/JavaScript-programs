@@ -11,3 +11,11 @@ function extractNumbers(str){
     return num
 }
 console.log(extractNumbers('hari123prasad456'))
+
+
+or
+function extractAlphabets(str){
+    let fnlstr=str.replace(/[a-zA-Z]/g,'');
+    return fnlstr;
+}
+console.log(extractAlphabets('a1b2c4d5e6f7g8h9'))
