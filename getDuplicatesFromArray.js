@@ -34,3 +34,19 @@ function getDuplicateLettersFromString(str){
 
 }
 console.log(getDuplicateLettersFromString('programming'));
+
+
+
+or
+
+function getDuplicatesFromArray(arr){
+    let fnlar=[];
+    for(let num of arr){
+        if(!fnlar.includes(num)){
+                fnlar.push(num);
+        }
+    }
+    return fnlar;
+
+}
+console.log(getDuplicatesFromArray([1,1,2,2,3,4,5,5,5,6,6,7,7]));
